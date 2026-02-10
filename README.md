@@ -65,8 +65,7 @@ While ORB-SLAM3 successfully runs and produces sparse maps, further calibration 
 - Fuse depth estimation with trajectory mapping
 - Integrate LiDAR or stereo vision 
 - Associate pothole detections with world coordinates
-- Export detected potholes as geo-referenced map points
-
 ---
+
 
 
