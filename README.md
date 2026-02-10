@@ -2,7 +2,7 @@
 
 This project explores a vision-based Advanced Driver Assistance System (ADAS) pipeline for pothole detection and sparse environment mapping using a monocular camera.
 
-A custom-trained YOLOv8 model is used for real-time pothole detection, while camera motion is estimated using optical flow to visualize a vehicle or pedestrian trajectory. The project also investigates sparse mapping using ORB-SLAM3.
+A custom-trained YOLOv8 model is used for real-time pothole detection, while camera motion is estimated using optical flow to visualize a vehicle or robot trajectory. The project also investigates sparse mapping using ORB-SLAM3.
 
 ---
 
@@ -20,11 +20,11 @@ This project is intended as a learning and portfolio project rather than a produ
 
 ## Features Implemented
 
-- ✅ Custom-trained YOLOv8 model for pothole detection  
-- ✅ Real-time pothole detection using OpenCV and a webcam  
-- ✅ Camera trajectory estimation using optical flow  
-- ✅ Path visualization with pothole events highlighted  
-- ✅ ADAS-relevant object detection (e.g., potholes, vehicles)  
+- Custom-trained YOLOv8 model for pothole detection  
+- Real-time pothole detection using OpenCV and a webcam  
+- Camera trajectory estimation using optical flow 
+- Path visualization with pothole events highlighted  
+- ADAS-relevant object detection (e.g., potholes, vehicles, traffic lights)  
 
 ---
 
@@ -55,7 +55,7 @@ While ORB-SLAM3 successfully runs and produces sparse maps, further calibration 
 - ✔ Pothole detection working reliably
 - ✔ Camera trajectory visualization implemented
 - ⚠ Sparse mapping accuracy is limited
-- 🚧 Depth-based mapping improvements in progress
+- ⚠ Depth-based mapping improvements in progress
 
 ---
 
@@ -63,12 +63,10 @@ While ORB-SLAM3 successfully runs and produces sparse maps, further calibration 
 
 - Improve scale estimation and drift correction
 - Fuse depth estimation with trajectory mapping
-- Integrate LiDAR or stereo vision
+- Integrate LiDAR or stereo vision 
 - Associate pothole detections with world coordinates
 - Export detected potholes as geo-referenced map points
 
 ---
 
-## Disclaimer
 
-This project is for educational and experimental purposes only and is not intended for real-world autonomous driving use.
